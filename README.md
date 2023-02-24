@@ -14,6 +14,7 @@ Versão live hosteada na vercel:
 
 **Funcionalidades:**
 
+- Responsividade mobile e web
 - Next api routes
 - React Context Api
 - Estrutura escalável
