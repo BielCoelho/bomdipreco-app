@@ -4,11 +4,11 @@ Este documento descreve as funcionalidades, bibliotecas e ferramentas utilizadas
 
 Versão live hosteada na vercel:
 
-- (link)
+[BomdiPreço](https://bomdipreco-app.vercel.app/)
 
 **Versão Local**
 
-1. Para rodar local basta clonar o repositório (link)
+1. Para rodar local basta clonar o repositório: [Github](https://github.com/BielCoelho/bomdipreco-app)
 2. instalar as dependências “npm install”
 3. utilizar o comando “npm run dev”
 
