@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BomdiPreço
 
-## Getting Started
+Este documento descreve as funcionalidades, bibliotecas e ferramentas utilizadas no desenvolvimento do projeto BomdiPreço.
 
-First, run the development server:
+Versão live hosteada na vercel:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- (link)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Versão Local**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Para rodar local basta clonar o repositório (link)
+2. instalar as dependências “npm install”
+3. utilizar o comando “npm run dev”
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Funcionalidades:**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Next api routes
+- React Context Api
+- Estrutura escalável
+- Hooks personalizados
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Bibliotecas utilizadas:**
 
-## Learn More
+- Axios
+- Faker.js
+- Framer-motion
+- Styled-components
+- Swiper.js
 
-To learn more about Next.js, take a look at the following resources:
+**Framework:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next 13(utilizando /src ao invés da experimental /app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Auxiliares:**
 
-## Deploy on Vercel
+- TypeScript
+- ESLint
+- Prettier
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Obs:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Este é um app de estado, ou seja, se atualizar a pagina ele resetará
+- A pagina de produto só mostra o produto clicado caso ele esteja no carrinho, se ele não estiver no carrinho é gerado aleatoriamente um produto(que pode ser adicionado ao carrinho)
