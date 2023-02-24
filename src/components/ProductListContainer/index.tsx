@@ -36,8 +36,10 @@ const ProductListContainer = ({ products }: IProductListContainer) => {
         {products.map((product) => (
           <SwiperSlide key={product.id}>
             <S.ProductCard>
-              <S.ProductImage src={product.img} alt={product.name} />
-              <S.ProductName href={product.id}>{product.name}</S.ProductName>
+              <S.LinkContainer href={product.id}>
+                <S.ProductImage src={product.img} alt={product.name} />
+                <S.ProductName>{product.name}</S.ProductName>
+              </S.LinkContainer>
               {/* <S.ProductDescription>{product.description}</S.ProductDescription> */}
               <S.ProductPrice>${product.price.toFixed(2)}</S.ProductPrice>
               <ButtonShop product={product} />

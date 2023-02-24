@@ -32,11 +32,15 @@ export const ProductCard = styled.div`
   height: 24rem; //swiper height fix
 `;
 
+export const LinkContainer = styled(Link)``;
+
 export const ProductImage = styled.img`
+  border-radius: 8px 8px 0 0;
   width: 100%;
+  box-shadow: ${({ theme }) => theme.shadows.base};
 `;
 
-export const ProductName = styled(Link)`
+export const ProductName = styled.span`
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 `;
